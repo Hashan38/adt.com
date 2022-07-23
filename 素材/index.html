@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>ADTeam-动画制作团队
+    </title>
+    <link href="" rel="icon" type="image/x-ico">
+  <link href="style.css" rel="stylesheet" type="text/css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+       background:rgb(14, 79, 219);
+      }
+
+      /* 头部标题 */
+      .header {
+        padding: -20px;
+        text-align: center;
+        background: rgba(14, 79, 219, 0.84);
+        width: 1339px;
+        height: 550px;
+      }
+
+      .header h1 {
+        font-size: 60px;
+      }
+
+      /* 导航条 */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* 导航条链接 */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* 链接颜色修改 */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* 创建两列 */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* 右侧栏 */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: 
+      rgb(14, 79, 219);
+        padding-left: 20px;
+      }
+
+      /* 图像部分 */
+      .fakeimg {
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* 文章卡片效果 */
+      .card {
+        background-color: rgb(255, 255, 255);
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* 列后面清除浮动 */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* 底部 */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.411);
+        margin-top: 20px;
+      }
+    
+
+      /* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+      @media screen and (max-width: 800px) {
+        .tupian,
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+          
+        }
+      }
+
+      /* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+      @media screen and (max-width: 400px) {
+        .tupian, 
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body  >
+    <div class="header">
+      <img
+        alt="首页"
+        src="f1.png"
+        style="
+          height: 400px;
+          width: 600px;
+          position: relative;
+          left: 250px;
+          top: 20px;
+        "
+      />
+      <div style="color: white; position: relative; left: -250px; top: -330px">
+        <h1>ADTeam-动画制作团队</h1>
+        <h1>欢迎来到ADTeam动画制作团队</h1>
+        <h3>优质作品/价格实惠/专业团队/</h3>
+      </div>
+    </div>
+
+    <div class="topnav">
+      <a href="" >手机版本</a>
+      <a href=""target="_blank">联系我们</a>
+      <a href=""target="_blank">咨询服务</a>
+      <a href="" target="_blank">加入我们</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <div class="fakeimg" style="height: 500px">
+            <video
+              width="800"
+              height="500"
+              controls
+              style="position: relative; left: 65px; top: -10px"
+            >
+              <source src="ppp.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <h2 style="position: relative; left: 150px; top: 10px">
+            ADTeam-动画制作团队-《新媒体传播文化，助力乡村振兴》
+          </h2>
+        </div>
+        <div class="c ard">
+          <div class="fakeimg" style="height: 600px">
+            <video
+              width="800"
+              height="500"
+              controls
+              style="position: relative; left: 85px; top: -30px"
+            >
+              <source
+                src="如何欣赏音乐.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <h2 style="position: relative; left: 250px; top: -100px">
+            ADTeam-动画制作团队-《如何欣赏音乐》
+          </h2>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>关于我们</h2>
+          <div
+            style="height: 100px; position: relative; left: -60px; top: -99px"
+          >
+            <img
+              src="18111.png"
+              style="height: 300px; width: 400px"
+            />
+          </div>
+          <p>关于我的一些信息..</p>
+        </div>
+        <div class="card">
+          <h3 style=" position: relative; left: 95px; top: -20px">时实热点</h3>
+          <div class="fakeimg">
+            <img  style="height: 250px;width: 280px;
+            position: relative; left: -20px; top: -50px" src="61.gif"> 
+            
+          
+          </img>
+           <h3 style=" position: relative; left: -20px; top: -50px">🎉六一儿童节快乐🎉！</h3>  
+          </div>
+          <div class="fakeimg"><img src="16230328344379087.gif" style="height: 250px;width: 280px;
+            position: relative; left: -20px; top: -50px"> </img>
+           <h3 style=" position: relative; left: -20px; top: -50px">🎉端午节快乐🎉！</h3>  </div>
+          
+        </div>
+        <div class="card" style="height: 93px">
+          <h3 style="position: relative; left:0px; top: -30px">🤳关注我们</h3>
+          <p style="position: relative; left: 0px; top: -45px">👩‍💻欢迎加入我们</p>
+          <p style="position: relative; left: 0px; top: -55px">📫邮箱：xxxxxxxxxx@qq.com</p>
+               
+            
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer"
+      style="height: 200px; position: relative; left: 0px; top: 90px;
+      color: white;"
+    >
+      <h2>版权所有xxxx</h2>
+      <h3>作者：xxxx</h3>
+      <h3>联系：xxxxxxx</h3>
+      <h4>IPC备案号：XXXXXXXXXXXX</h4>
+    </div>
+  </body>
+</html>
